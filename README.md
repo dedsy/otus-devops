@@ -1,0 +1,2 @@
+# otus-devops
+Обучение DevOps

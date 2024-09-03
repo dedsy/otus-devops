@@ -4,9 +4,9 @@ datasource:
     strict_id: false
 ssh_pwauth: no
 users:
-- name: < USER >
+- name: xeokoin
   sudo: 'ALL=(ALL) NOPASSWD:ALL'
   shell: /bin/bash
   ssh_authorized_keys:
-  - < PUBLIC KEY >
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDraCsCppQA98jBrDrh/hUYk2jrK0PXfRtOKg3d79bmlkN8YNTgShohXw+64i6fiamvh91VlVRj4zXauYZ4iNr8Eg9VWdJTrBpiyp+yYqyppbCxzkGzaJswBgEfVVUJiN/1o1rv0q/5KvKWeVCgJjtV8DyrW/eXUdc3NYV09cJ/nuql6M+Rnm2GR8KCVs2RYYvg7eHQ0RpgCggODzogFxZzQO9MDevghk9ZXlHspZqnXepsBLiYTUlOu57jqYCVjnlrBKpjsDPuiedDowlKnK2i/6tCahDtMd5UTWh8EsKlvSfYmZZ5bxDWbFp59QycUnfTKNc8WpJKKjvtHb2eBDCB krivutsenkovd@rognb
 runcmd: []
